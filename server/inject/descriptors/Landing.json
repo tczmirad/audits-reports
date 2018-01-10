@@ -15,8 +15,8 @@
           },
           "URL": {
             "type": "string",
-            "selector": "td a href",
-            "control": "property.innerText"
+            "selector": "td a",
+            "control": "property.href"
           }
         }
       }
