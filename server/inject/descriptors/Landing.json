@@ -12,6 +12,11 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 1
+          },
+          "URL": {
+            "type": "string",
+            "selector": "td a href",
+            "control": "property.innerText"
           }
         }
       }
