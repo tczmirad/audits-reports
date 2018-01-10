@@ -7,7 +7,7 @@
       "items": {
         "type": "object",
         "properties": {
-          "number": {
+          "Number": {
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
