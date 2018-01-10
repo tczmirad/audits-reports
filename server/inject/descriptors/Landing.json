@@ -8,6 +8,11 @@
         "type": "object",
         "properties": {}
       }
+    },
+    "isLanding": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.Reports/ViewReports.aspx"
     }
   },
   "connect": []
