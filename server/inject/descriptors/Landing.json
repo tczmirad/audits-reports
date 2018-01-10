@@ -1,15 +1,21 @@
 {
   "type": "object",
   "properties": {
-    "reports": {
+    "Reports": {
       "type": "array",
       "selectorAll": "table.gridview > tbody tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "number": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          }
+        }
       }
     },
-    "isLanding": {
+    "IsLanding": {
       "type": "identifier",
       "selector": "html",
       "control": "url.Reports/ViewReports.aspx"
