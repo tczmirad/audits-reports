@@ -10,7 +10,8 @@
           "number": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 1
           }
         }
       }
