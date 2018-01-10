@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "Reports": {
+      "type": "array",
+      "selectorAll": "table.gridview > tbody tr",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "connect": []
+}
