@@ -23,6 +23,12 @@
             "control": "property.innerText",
             "selector": "table.gridview > tbody tr td",
             "selectIndex": 3
+          },
+          "Area": {
+            "type": "string",
+            "selector": "table.gridview > tbody tr td",
+            "control": "action.link",
+            "selectIndex": 7
           }
         }
       }
