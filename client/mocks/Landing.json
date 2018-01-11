@@ -4,43 +4,57 @@
    "$i": 0,
    "Number": "RA-0066/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=66",
-   "Weeks": "19 - 21"
+   "Weeks": "19 - 21",
+   "Area": "Proces ogólny 1",
+   "LeadingAuditor": "CZARNOWSKA AGNIESZKA"
   },
   {
    "$i": 1,
    "Number": "RA-0067/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=67",
-   "Weeks": "20 - 21"
+   "Weeks": "20 - 21",
+   "Area": "Proces ogólny 1",
+   "LeadingAuditor": "CZARNOWSKA AGNIESZKA"
   },
   {
    "$i": 2,
    "Number": "RA-0068/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=68",
-   "Weeks": "38"
+   "Weeks": "38",
+   "Area": "Proces ogólny 1",
+   "LeadingAuditor": "DRAPAŁA JUSTYNA"
   },
   {
    "$i": 3,
    "Number": "RA-0069/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=69",
-   "Weeks": "38"
+   "Weeks": "38",
+   "Area": "Proces ogólny 1",
+   "LeadingAuditor": "JANICKI MARCIN"
   },
   {
    "$i": 4,
    "Number": "RA-0070/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=70",
-   "Weeks": "42"
+   "Weeks": "42",
+   "Area": "Proces ogólny 1",
+   "LeadingAuditor": "CZARNOWSKA AGNIESZKA"
   },
   {
    "$i": 5,
    "Number": "RA-0071/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=71",
-   "Weeks": "43"
+   "Weeks": "43",
+   "Area": "Proces ogólny 1",
+   "LeadingAuditor": "RADZISZEWSKI MIŁOSZ"
   },
   {
    "$i": 6,
    "Number": "RA-0073/2018",
    "URL": "http://localhost:3393/Reports/ReportDetails.aspx?ReportId=73",
-   "Weeks": "1 - 5"
+   "Weeks": "1 - 5",
+   "Area": "Proces ESD 1",
+   "LeadingAuditor": "BIELAWA DANIEL"
   }
  ],
  "IsLanding": true
