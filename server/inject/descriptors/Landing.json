@@ -27,7 +27,7 @@
           "Area": {
             "type": "string",
             "selector": "table.gridview > tbody tr td",
-            "control": "action.link",
+            "control": "property.innerText",
             "selectIndex": 7
           }
         }
