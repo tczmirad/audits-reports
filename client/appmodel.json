@@ -27,5 +27,27 @@
         }
       }
     }
+  },
+  "Landing": {
+    "type": "object",
+    "properties": {
+      "Reports": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Number": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            },
+            "Weeks": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }

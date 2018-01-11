@@ -33,5 +33,14 @@
       "control": "url.Reports/ViewReports.aspx"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "IsLanding"
+      ],
+      "screens": [
+        "reportslist"
+      ]
+    }
+  ]
 }
