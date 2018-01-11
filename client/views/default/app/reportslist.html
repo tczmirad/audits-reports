@@ -12,14 +12,11 @@
         <ion-list data-comp-id="ionic-list.1">
             <div class="item item-icon-right" data-comp-id="item.1"
                 ng-click="app.action('listview', 'data.listItems[item].action', this)"
-                ng-repeat="(area, reports) in data.Reports | groupBy: 'Area'"
+                ng-repeat="item in data.Reports"
                 style="border-top: 1px solid rgba(255, 255, 255, 0);">
                 <div class="row">
                     <div class="col">
-                        <span ng-bind="item.Number"></span>
-                    </div>
-                    <div class="col">
-                        <span ng-bind="item.Area"></span>
+                        <span class="energized" ng-bind="item.LeadingAuditor"></span>
                     </div>
                 </div>
                 <div class="row">
