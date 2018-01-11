@@ -29,6 +29,12 @@
             "selector": "table.gridview > tbody tr td",
             "control": "property.innerText",
             "selectIndex": 5
+          },
+          "LeadingAuditor": {
+            "type": "string",
+            "selector": "table.gridview > tbody tr td",
+            "control": "property.innerText",
+            "selectIndex": 6
           }
         }
       }
