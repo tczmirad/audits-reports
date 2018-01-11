@@ -14,7 +14,6 @@
                 ng-click="app.action('listview', 'data.listItems[item].action', this)"
                 ng-repeat="(area, reports) in data.Reports | groupBy: 'Area'"
                 style="border-top: 1px solid rgba(255, 255, 255, 0);">
-                {{area}}
                 <div class="row">
                     <div class="col">
                         <span ng-bind="item.Number"></span>
