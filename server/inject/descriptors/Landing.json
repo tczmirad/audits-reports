@@ -28,7 +28,7 @@
             "type": "string",
             "selector": "table.gridview > tbody tr td",
             "control": "property.innerText",
-            "selectIndex": 7
+            "selectIndex": 5
           }
         }
       }
