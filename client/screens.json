@@ -25,7 +25,8 @@
       "id": "reportslist",
       "name": "ReportsList",
       "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates"
+      "sourceAppId": "universaltemplates",
+      "model": "Landing"
     }
   ],
   "sourceAppId": "_blank",
