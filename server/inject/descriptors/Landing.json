@@ -29,6 +29,11 @@
             "selector": "table.gridview > tbody tr td",
             "control": "property.innerText",
             "selectIndex": 6
+          },
+          "Click": {
+            "type": "string",
+            "selector": "table.gridview > tbody tr td:nth-child(1) a",
+            "control": "action.click"
           }
         }
       }
