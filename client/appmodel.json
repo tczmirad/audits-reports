@@ -15,6 +15,15 @@
             },
             "Weeks": {
               "type": "string"
+            },
+            "Area": {
+              "type": "string"
+            },
+            "LeadingAuditor": {
+              "type": "string"
+            },
+            "Click": {
+              "type": "string"
             }
           }
         },
