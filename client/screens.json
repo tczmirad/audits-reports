@@ -27,6 +27,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "Landing"
+    },
+    {
+      "id": "reportdetails",
+      "name": "ReportDetails",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "reportdetails"
     }
   ],
   "sourceAppId": "_blank",
