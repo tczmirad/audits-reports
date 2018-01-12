@@ -3,5 +3,7 @@ function app_reportdetails($scope, app) {
     'use strict';
     app.init($scope);
    
-  
+    $scope.goBack = function(){
+        test.goBack();
+    }
 }
