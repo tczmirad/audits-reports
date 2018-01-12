@@ -167,5 +167,54 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "Category": {
+        "type": "select"
+      },
+      "Reproducibility": {
+        "type": "select"
+      },
+      "Priority": {
+        "type": "select"
+      },
+      "AssignTo": {
+        "type": "select"
+      },
+      "Summary": {
+        "type": "string"
+      },
+      "Description": {
+        "type": "string"
+      },
+      "Type": {
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
+      },
+      "Security": {
+        "type": "boolean"
+      },
+      "Categories": {
+        "type": "select"
+      },
+      "Submit": {
+        "type": "action"
+      },
+      "Cancel": {
+        "type": "action"
+      },
+      "test": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    }
   }
 }

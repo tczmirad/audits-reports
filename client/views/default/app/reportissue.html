@@ -1,0 +1,72 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Report an Issue</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-home" data-comp-id="button.2"
+                ng-click="app.go('app.assignedissues.issueslist')"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content data-comp-id="ionic-content.1">
+        <select-list data-comp-id="selectList.1" ng-model="data.Category"
+            select-class=" positive-icon">Category</select-list>
+        <multiselect-list data-comp-id="multiselectList.1" ng-model="data.Category">Category</multiselect-list>
+        <select-list data-comp-id="selectList.2" ng-model="data.Priority"
+            select-class=" positive-icon">Priority</select-list>
+        <select-list data-comp-id="selectList.3" ng-model="data.Reproducibility"
+            select-class=" positive-icon">Reproducibility</select-list>
+        <select-list data-comp-id="selectList.4" ng-model="data.AssignTo"
+            select-class=" positive-icon">Assign To</select-list>
+        <div class="row calm-bg" data-comp-id="row.1">
+            <div class="col" data-comp-id="column.1">
+                <div class=" light" data-comp-id="text.1">Issue Details</div>
+            </div>
+        </div>
+        <label class="item item-input" data-comp-id="textInput.1">
+            <span class="input-label">Summary</span>
+            <input type="text">
+        </label>
+        <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
+            <span class="input-label">Description</span>
+            <textarea rows="4" style="height: 300px;"></textarea>
+        </label>
+        <label class="item item-input item-attachment-icon positive-icon"
+            data-comp-id="attachmentInput.1">
+            <span class="input-label">Attachment</span>
+            <input type="file">
+        </label>
+        <div class="row calm-bg" data-comp-id="row.2">
+            <div class="col" data-comp-id="column.2">
+                <div class=" light" data-comp-id="text.2">Type</div>
+            </div>
+        </div>
+        <ion-radio class="radio-button" data-comp-id="radio.1"
+            ng-model="data.Type.selected" ng-repeat="item in data.Type.options"
+            ng-value="item">{{item.label}}</ion-radio>
+        <ion-checkbox data-comp-id="checkbox.1" ng-model="data.Security">Is this a Security Issue?</ion-checkbox>
+    </ion-content>
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+        dynamic-floating-footer="">
+        <div class="row" data-comp-id="row.3" style="padding: 0px;">
+            <div class="col" data-comp-id="column.3" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.1">
+                    <button
+                        class="button icon button-round button-shadowed ion-arrow-left-c button-stable"
+                        ng-click="app.go('app.myassignments.issueslist')"></button>
+                    <div class="label royal">Cancel</div>
+                </div>
+            </div>
+            <div class="col text-center" data-comp-id="column.4" style="padding: 0px;"></div>
+            <div class="col text-right" data-comp-id="column.5" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.2">
+                    <button
+                        class="button icon ion-arrow-right-c button-round button-shadowed button-positive"
+                        ng-click="app.go('app.myassignments.issueslist')"></button>
+                    <div class="label positive">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-view>

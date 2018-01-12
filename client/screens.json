@@ -48,6 +48,13 @@
       "sourceScreenId": "app.detailsview.detailsviewcool",
       "sourceAppId": "universaltemplates",
       "model": "detailsviewcool"
+    },
+    {
+      "id": "reportissue",
+      "name": "Report Issue",
+      "sourceScreenId": "app.reportissue",
+      "sourceAppId": "studiosample",
+      "model": "reportissue"
     }
   ],
   "sourceAppId": "_blank",
