@@ -58,5 +58,9 @@
         }
       }
     }
+  },
+  "ReportDetails": {
+    "type": "object",
+    "properties": {}
   }
 }

@@ -7,5 +7,14 @@
       "control": "url.ReportDetails"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "IsReportDetails"
+      ],
+      "screens": [
+        "reportdetails"
+      ]
+    }
+  ]
 }
