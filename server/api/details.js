@@ -1,1 +1,1 @@
-exports.pageBack = function (page) { console.log("AA"); };
+exports.pageBack = function (page) { page.history(-1) };
