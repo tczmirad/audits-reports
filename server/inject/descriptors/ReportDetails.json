@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "IsReportDetails": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.ReportDetails"
+    }
+  },
   "connect": []
 }
