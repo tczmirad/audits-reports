@@ -33,7 +33,7 @@
           "Click": {
             "type": "action",
             "selector": "table.gridview > tbody tr td:nth-child(1) a",
-            "control": "action.click"
+            "control": "action.link"
           }
         }
       }
