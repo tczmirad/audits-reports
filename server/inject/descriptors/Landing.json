@@ -33,10 +33,7 @@
           "Click": {
             "type": "action",
             "selector": "table.gridview > tbody tr td",
-            "control": {
-              "fn": "function(node){node.querySelector('a').click()}",
-              "control": "property"
-            }
+            "control": "action.click"
           }
         }
       }
