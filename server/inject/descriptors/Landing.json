@@ -31,7 +31,7 @@
             "selectIndex": 6
           },
           "Click": {
-            "type": "string",
+            "type": "action",
             "selector": "table.gridview > tbody tr td:nth-child(1) a",
             "control": "action.click"
           }

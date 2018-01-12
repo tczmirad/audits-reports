@@ -13,9 +13,6 @@
             "URL": {
               "type": "string"
             },
-            "Weeks": {
-              "type": "string"
-            },
             "Area": {
               "type": "string"
             },
@@ -23,7 +20,7 @@
               "type": "string"
             },
             "Click": {
-              "type": "string"
+              "type": "action"
             }
           }
         },
