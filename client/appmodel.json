@@ -32,6 +32,10 @@
   },
   "ReportDetails": {
     "type": "object",
-    "properties": {}
+    "properties": {
+      "ReportNumber": {
+        "type": "string"
+      }
+    }
   }
 }
