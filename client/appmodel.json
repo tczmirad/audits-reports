@@ -38,6 +38,10 @@
       },
       "Back": {
         "type": "action"
+      },
+      "PageBack": {
+        "type": "method",
+        "parameters": {}
       }
     }
   },
