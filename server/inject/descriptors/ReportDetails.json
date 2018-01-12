@@ -10,6 +10,12 @@
       "type": "string",
       "selector": "#MainContent_audAuditDetails_lbReportNumber",
       "control": "property.innerText"
+    },
+    "Back": {
+      "type": "action",
+      "selector": ".breadcrumb span a",
+      "control": "action.link",
+      "selectContains": "Raporty"
     }
   },
   "connect": [
