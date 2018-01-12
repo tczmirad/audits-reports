@@ -3,6 +3,6 @@ function app_reportdetails($scope, app) {
     'use strict';
     app.init($scope);
     $scope.test = function(){
-        console.log(page)
+        console.log(page);
     }
 }
