@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": "html",
       "control": "url.ReportDetails"
+    },
+    "ReportNumber": {
+      "type": "string",
+      "selector": "#MainContent_audAuditDetails_lbReportNumber",
+      "control": "property.innerText"
     }
   },
   "connect": [
