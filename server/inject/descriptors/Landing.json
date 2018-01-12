@@ -32,8 +32,11 @@
           },
           "Click": {
             "type": "action",
-            "selector": "table.gridview > tbody tr td:nth-child(1) a",
-            "control": "action.link"
+            "selector": "table.gridview > tbody tr td",
+            "control": {
+              "fn": "function(node){node.querySelector('a').click()}",
+              "control": "property"
+            }
           }
         }
       }
